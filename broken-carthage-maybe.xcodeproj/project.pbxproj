@@ -12,6 +12,15 @@
 		4683C2251FF504D600844492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4683C2231FF504D600844492 /* Main.storyboard */; };
 		4683C2271FF504D600844492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4683C2261FF504D600844492 /* Assets.xcassets */; };
 		4683C22A1FF504D600844492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4683C2281FF504D600844492 /* LaunchScreen.storyboard */; };
+		4683C2531FF50DDE00844492 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4683C2491FF50DDE00844492 /* FirebaseCore.framework */; };
+		4683C2541FF50DDE00844492 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4683C24A1FF50DDE00844492 /* FirebaseAnalytics.framework */; };
+		4683C2551FF50DDE00844492 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4683C24B1FF50DDE00844492 /* GoogleToolboxForMac.framework */; };
+		4683C2561FF50DDE00844492 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4683C24C1FF50DDE00844492 /* nanopb.framework */; };
+		4683C2571FF50DDE00844492 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4683C24D1FF50DDE00844492 /* FirebaseNanoPB.framework */; };
+		4683C2581FF50DDE00844492 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4683C24E1FF50DDE00844492 /* FirebaseInstanceID.framework */; };
+		4683C2591FF50DDE00844492 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4683C24F1FF50DDE00844492 /* FirebaseCoreDiagnostics.framework */; };
+		4683C25A1FF50DDE00844492 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4683C2511FF50DDE00844492 /* GTMSessionFetcher.framework */; };
+		4683C25B1FF50DDE00844492 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4683C2521FF50DDE00844492 /* FirebaseAuth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		4683C2261FF504D600844492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4683C2291FF504D600844492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4683C22B1FF504D600844492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4683C2491FF50DDE00844492 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		4683C24A1FF50DDE00844492 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		4683C24B1FF50DDE00844492 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		4683C24C1FF50DDE00844492 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		4683C24D1FF50DDE00844492 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		4683C24E1FF50DDE00844492 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		4683C24F1FF50DDE00844492 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		4683C2511FF50DDE00844492 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		4683C2521FF50DDE00844492 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4683C25B1FF50DDE00844492 /* FirebaseAuth.framework in Frameworks */,
+				4683C2551FF50DDE00844492 /* GoogleToolboxForMac.framework in Frameworks */,
+				4683C2581FF50DDE00844492 /* FirebaseInstanceID.framework in Frameworks */,
+				4683C2541FF50DDE00844492 /* FirebaseAnalytics.framework in Frameworks */,
+				4683C2571FF50DDE00844492 /* FirebaseNanoPB.framework in Frameworks */,
+				4683C25A1FF50DDE00844492 /* GTMSessionFetcher.framework in Frameworks */,
+				4683C2591FF50DDE00844492 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				4683C2561FF50DDE00844492 /* nanopb.framework in Frameworks */,
+				4683C2531FF50DDE00844492 /* FirebaseCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +65,8 @@
 		4683C2131FF504D600844492 = {
 			isa = PBXGroup;
 			children = (
+				4683C2481FF50DDE00844492 /* Analytics */,
+				4683C2501FF50DDE00844492 /* Auth */,
 				4683C21E1FF504D600844492 /* broken-carthage-maybe */,
 				4683C21D1FF504D600844492 /* Products */,
 			);
@@ -62,6 +91,31 @@
 				4683C22B1FF504D600844492 /* Info.plist */,
 			);
 			path = "broken-carthage-maybe";
+			sourceTree = "<group>";
+		};
+		4683C2481FF50DDE00844492 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				4683C2491FF50DDE00844492 /* FirebaseCore.framework */,
+				4683C24A1FF50DDE00844492 /* FirebaseAnalytics.framework */,
+				4683C24B1FF50DDE00844492 /* GoogleToolboxForMac.framework */,
+				4683C24C1FF50DDE00844492 /* nanopb.framework */,
+				4683C24D1FF50DDE00844492 /* FirebaseNanoPB.framework */,
+				4683C24E1FF50DDE00844492 /* FirebaseInstanceID.framework */,
+				4683C24F1FF50DDE00844492 /* FirebaseCoreDiagnostics.framework */,
+			);
+			name = Analytics;
+			path = Firebase/Analytics;
+			sourceTree = "<group>";
+		};
+		4683C2501FF50DDE00844492 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4683C2511FF50DDE00844492 /* GTMSessionFetcher.framework */,
+				4683C2521FF50DDE00844492 /* FirebaseAuth.framework */,
+			);
+			name = Auth;
+			path = Firebase/Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +329,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/Analytics",
+					"$(PROJECT_DIR)/Firebase/Auth",
+				);
 				INFOPLIST_FILE = "broken-carthage-maybe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tfw.broken-carthage-maybe";
@@ -289,6 +348,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Firebase/Analytics",
+					"$(PROJECT_DIR)/Firebase/Auth",
+				);
 				INFOPLIST_FILE = "broken-carthage-maybe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tfw.broken-carthage-maybe";
